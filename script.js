@@ -2,7 +2,7 @@ function volume_sphere() {
     //Write your code here
 	let radius = document.getElementById("radius");
       let volume = document.getElementById("volume")
-      volume.value = (4/3)*(Math.PI)*Math.pow(Number(radius.value),2);   
+      volume.value = (4/3)*(Math.PI)*Math.pow(Number(radius.value),3);   
 
 } 
 window.onload = document.getElementById('MyForm').addEventListener('submit',(event)=>{
